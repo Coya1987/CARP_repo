@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Inicio de sesion</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Barlow:wght@200;400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../estilos/styles.css">
+</head>
+<body class="body">
+    <header class="header">
+            <h2><a href="../Inicio.html"><img class="header__logo" src="../imagenes/logo-river-plate-clipart-5.png" alt=""></a></h2> <!--IMEGEN A LA IZQUIERDA DEL LOGO DEL CLUB-->
+            <nav class="header__navegador">
+                <div class="navegador__lista">
+                    <li class="lista__item"> <a class="lista__header" href="../Inicio.html">Inicio</a></li>
+                    <li class="lista__item"> <a class="lista__header" href="./Noticias.html">Noticias</a></li>
+                    <lI class="lista__item"> <a class="lista__header" href="./Monumental.html">El Monumental</a></LI>
+                    <li class="lista__item"> <a class="lista__header" href="./QuienesSomos.html">Quienes Somos</a></li>
+                    <li class="lista__item"> <a class="lista__header" href="./InicioDeSesion.html">Inicio de Sesion</a></li>
+                </div>
+            </nav>
+    </header> 
+    <main class="main">
+        <h3 class="main__titulo2">Inicio de Sesion</h3>
+        <div class="main__fieldset" >
+            <fieldset class="fieldset">
+                <form  action="" method="get" enctype="text/plain">
+                    <section class="fieldset__section">
+                        <div>
+                            <label for="Email">Correo Electronico</label>
+                            <input type="email" name="Email" id="Email" required placeholder="Ingrese su Email">
+                        </div><br>
+                        <div>
+                            <label for="Contraseña">Contraseña</label>
+                            <input type="password" name="Contraseña" id="Contraseña" required placeholder="Ingrese su Contraseña">
+                        </div><br>
+                        <div class="section__botones">
+                            <input class="botones" type="submit" value="ACEPTAR">
+                            <input class="botones" type="reset" value="CANCELAR">
+                        </div><br>
+                    </section>
+                </form><br><br><br>
+            </fieldset >
+        </div>
+        <h3 class="main__titulo2">Hacete Socio</h3><br>
+        <div class="main__fieldset" >
+            <fieldset class="fieldset">
+                <form action="" method="get" enctype="text/plain">
+                    <section class="fieldset__section">
+                        <div><br>
+                            <label for="Nombre">Nombre</label>
+                            <input type="text" name="Nombre" id="Nombre" required placeholder="Ingrese su Nombre">
+                        </div><br>
+                        <div>
+                            <label for="Apellido">Apellido</label>
+                            <input type="text" name="Apellido" id="Apellido" required placeholder="Ingrese su Apellido">
+                        </div><br>  
+                        <div><br>
+                            <label for="Sexo">Sexo</label>
+                            <input type="radio" name="Sexo" id="Sexo">Hombre
+                            <input type="radio" name="Sexo" id="Sexo">Mujer
+                        </div><br>
+                        <div><br>
+                            <label for="estadocivil">Estado Civil</label>
+                            <select name="estadocivil" id="estadocivil">
+                                <option value="" disabled selected>Estado Civil</option>
+                                <option value="Casado/a">Casado/a</option>
+                                <option value="Soltero/a">Soltero/a</option>
+                                <option value="Viudo/a">Viudo/a</option>
+                            </select>
+                        </div><br>
+                        <div>
+                            <label for="Comentarios">Comentarios</label>
+                            <textarea name="Comentarios" id="Comentarios" cols="30" rows="10" placeholder="Ingrese su comentario"></textarea>
+                        </div><br>
+                        <div>
+                            <label for="">Terminos y Condiciones</label>
+                            <input type="checkbox" name="" id="" value="1" required>Aceptar Condiciones
+                        </div><br>
+                        <div class="section__botones">
+                            <input class="botones" type="submit" value="ACEPTAR">
+                            <input class="botones" type="reset" value="CANCELAR">
+                        </div><br>   
+                    </section>
+                </form>
+            </fieldset>
+
+        </div>
+        
+        
+    </main>
+    <footer class="footer">
+        <h4 class="footer__tituloFooter">Seguinos en nuestras redes sociales</h4>
+        <ul class="footer__list">
+            <li class="list__element" ></li><img class="logo__footer" src="../imagenes/Logo instagram.png" alt="">
+            <li class="list__element"></li><img class="logo__footer" src="../imagenes/Logo facebook.png" alt="">
+            <li class="list__element"></li><img class="logo__footer" src="../imagenes/Logo twitter.png" alt="">
+        </ul>                                                
+    </footer>
+
+
+</body>
+</html>
