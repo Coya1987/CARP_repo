@@ -270,9 +270,14 @@
     border-style: solid;
     border-radius: 30px;
     padding: 0.5rem;
-    
+    transition: 1s;
 }
 
+.botones:hover{
+    background-color: rgba(243, 8, 8, 0.516);
+    color: white;
+    font-weight: bold;
+}
 
 
 /* MEDIA QUERIES*/
