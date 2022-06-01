@@ -116,16 +116,10 @@
   
 
 
-
-.main__divVideo{
-    display: flex;
-    justify-content: center;
-}
-
 .main__video{
     display: flex;
-    margin: 5%;
-    width: 100%;
+    margin: auto;
+    width: auto;
 }
 
 
@@ -333,7 +327,7 @@
         align-items: center;
         justify-content: space-between;
         flex-direction: row-reverse;
-        font-size: 2rem;
+        font-size: 1.3rem;
         padding: 10px 10px;
         margin: 20px 10px;
     }
@@ -422,5 +416,17 @@
 
     #img2{
         display: none;
+    }
+
+    .main__seccionArticulos{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .fieldset{
+        display: flex;
+        justify-content: center;
+        width: auto;
+        
     }
 }
