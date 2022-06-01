@@ -50,7 +50,6 @@
     font-size: 1.1rem;
     display: inline-block;
     margin:13px;
-    
 
     
 }
@@ -168,21 +167,21 @@
 .articuloNoticia__img1{
     display: flex;
     padding: 1rem;
-    width: 100%;
-    height: 100%;
+    width: auto;
+    
 }
 
 .articuloNoticia__img2{
     display: flex;
     padding: 1rem;
-    width: 100%;
+    width: auto;
 
 }
 
 .articuloNoticia__img3{
     display: flex;
     margin-left: 4%;
-    width: 100%;
+    width: auto;
 }
 
 .footer{
