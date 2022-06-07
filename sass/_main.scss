@@ -1,0 +1,91 @@
+.main{
+    grid-area: main;
+    padding: 25px;
+
+    .main__titulo{
+        display: flex;
+        justify-content: center;
+        font-size: 4rem;
+        padding: 1rem 1rem;
+        margin: 1rem 1rem;
+        color: crimson;
+    }
+    .tracking-in-expand {
+        -webkit-animation: tracking-in-expand 1s cubic-bezier(0.215, 0.610, 0.355, 1.000) both;
+                animation: tracking-in-expand 1s cubic-bezier(0.215, 0.610, 0.355, 1.000) both;
+    }
+    
+     @-webkit-keyframes tracking-in-expand {
+        0% {
+          letter-spacing: -0.5em;
+          opacity: 0;
+        }
+        40% {
+          opacity: 0.6;
+        }
+        100% {
+          opacity: 1;
+        }
+      }
+      @keyframes tracking-in-expand {
+        0% {
+          letter-spacing: -0.5em;
+          opacity: 0;
+        }
+        40% {
+          opacity: 0.6;
+        }
+        100% {
+          opacity: 1;
+        }
+      }
+    
+    .main__titulo2{
+        display: flex;
+        justify-content: center;
+        padding: 20px 20px;
+        margin: 10px 10px;
+        font-size: 3rem;
+    }
+    
+    .articuloNoticia__titulo{
+        padding: 1rem 1rem;
+        font-size: 2rem;
+
+        .seccionArticulos__articuloNoticia{
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            padding: 10px 10px;
+            margin: 20px 10px;
+            flex-direction: row-reverse;
+            font-size: 1.3rem;
+        
+            p {
+                width: auto;
+                padding: 2rem;
+                margin: 35px;
+                font-size: 1rem;
+            }
+            .articuloNoticia__img1{
+                display: flex;
+                padding: 1rem;
+                width: auto;
+                
+            }
+            
+            .articuloNoticia__img2{
+                display: flex;
+                padding: 1rem;
+                width: auto;
+            
+            }
+        }
+    }
+
+}
+.articuloNoticia__img3{
+    display: flex;
+    margin-left: 4%;
+    width: auto;
+}

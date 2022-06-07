@@ -1,0 +1,27 @@
+.header{    
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    grid-area: header;
+    padding: 20px 20px;
+    background: rgb(255,255,255);
+    background: linear-gradient(0deg, rgba(255,255,255,1) 0%, rgba(255,255,255,1) 35%, rgba(245,5,5,1) 77%);
+    
+    .header__logo{
+        width: 80px;
+        
+    }
+
+    .lista__header{
+        color: black;
+    
+    }
+    
+    
+    .lista__item{
+        font-size: 1.1rem;
+        display: inline-block;
+        margin:13px;  
+    }
+
+}

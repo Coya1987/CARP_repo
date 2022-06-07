@@ -1,0 +1,41 @@
+/*INICIO DE SESION*/
+
+
+
+
+.main__fieldset{
+    display: flex;
+    justify-content: center;
+    padding: 15px 10px;
+    font-size: 20px;
+    width: 100%;
+
+    .fieldset{
+        border: $border-tabla;
+    
+        .fieldset__section{
+            display: inline-block;
+            font-size: 25px;
+            padding: 1rem;
+            margin: 1rem;
+            font-weight:lighter;
+                .section__botones{
+                    display: flex;
+                    justify-content: space-evenly;
+                    padding: 0.5rem;
+                        .botones{
+                            border-style: solid;
+                            border-radius: 30px;
+                            padding: 0.5rem;
+                            transition: 1s;
+                            &:hover{
+                                background-color: rgba(243, 8, 8, 0.516);
+                                color: white;
+                                font-weight: bold;
+                            }
+                        }
+                
+                }
+        }
+    }
+}
