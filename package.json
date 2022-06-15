@@ -20,6 +20,5 @@
   "homepage": "https://github.com/Coya1987/CARP_repo#readme",
   "devDependencies": {
     "node-sass": "^7.0.1",
-    "nodemon": "^2.0.16"
+    "nodemon": "^2.0.16"}
   }
-}

@@ -2,7 +2,6 @@
 
 @media screen and (max-width: 820px) {
     .seccionArticulos__articuloNoticia{
-        display: flex;
         align-items: center;
         justify-content: space-between;
         flex-direction: row-reverse;
@@ -27,6 +26,8 @@
     }
     
     .articuloNoticia__parrafo{
+        display: flex;
+        flex-direction: column;
         padding: 2rem;
         margin: 35px;
         font-size: 1.6rem;
@@ -36,9 +37,7 @@
     
     
 }
-
-
-@media screen and (max-width: 376px) {
+@media screen and (max-width: 390px) {
     
 
     .footer__tituloFooter{

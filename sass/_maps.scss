@@ -1,0 +1,22 @@
+$titulosPrincipales: (
+    "carp": 4rem,
+    "noticias": 4rem,
+    "tribunaYprecios": 4rem,
+    "quienesSomos": 4rem
+);
+
+.tituloCarp {
+    font-size:map-get($map: $titulosPrincipales, $key: carp );
+}
+
+.tituloNoticia {
+    font-size:map-get($map: $titulosPrincipales, $key: noticias );
+}
+
+.tituloMonumental {
+    font-size:map-get($map: $titulosPrincipales, $key: tribunaYprecios );
+}
+
+.tituloQuienesSomos {
+    font-size:map-get($map: $titulosPrincipales, $key: quienesSomos );
+}
