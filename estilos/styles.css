@@ -90,7 +90,7 @@
 
 .articuloNoticia__img3 {
   display: flex;
-  margin-left: 4%;
+  margin: auto;
   width: auto; }
 
 .footer {
@@ -207,9 +207,9 @@
   .articuloNoticia__parrafo {
     display: flex;
     flex-direction: column;
-    padding: 2rem;
-    margin: 35px;
-    font-size: 1.6rem; } }
+    padding: 1rem;
+    margin: 1rem;
+    font-size: 1rem; } }
 
 @media screen and (max-width: 390px) {
   .footer__tituloFooter {
