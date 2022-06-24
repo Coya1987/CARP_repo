@@ -51,6 +51,12 @@
     opacity: 0.6; }
   100% {
     opacity: 1; } }
+  .main .main__carousel {
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    padding: 2rem;
+    width: 100vh; }
   .main .main__titulo2 {
     display: flex;
     justify-content: center;
