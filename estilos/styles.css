@@ -76,25 +76,35 @@
       margin: 20px 10px;
       flex-direction: row-reverse;
       font-size: 1.3rem; }
-      .main .articuloNoticia__titulo .seccionArticulos__articuloNoticia p {
-        width: auto;
-        padding: 2rem;
-        margin: 35px;
-        font-size: 1rem; }
-      .main .articuloNoticia__titulo .seccionArticulos__articuloNoticia .articuloNoticia__img1 {
-        display: flex;
-        padding: 1rem;
-        width: auto; }
-      .main .articuloNoticia__titulo .seccionArticulos__articuloNoticia .articuloNoticia__img2 {
-        display: flex;
-        padding: 1rem;
-        width: auto; }
 
 .articuloNoticia__img3 {
   display: flex;
   padding: 1.5rem;
   margin: auto;
   width: auto; }
+
+.contenedor__img2 {
+  display: flex;
+  justify-content: center; }
+  .contenedor__img2 .articuloNoticia__img2 {
+    display: flex;
+    padding: 1rem;
+    width: auto; }
+
+.contenedor__img1 {
+  display: flex;
+  justify-content: center; }
+  .contenedor__img1 .articuloNoticia__img1 {
+    display: flex;
+    padding: 1rem;
+    width: auto; }
+
+.articuloNoticia__Parrafo {
+  width: auto;
+  padding: 1.5rem;
+  margin-left: 2.5rem;
+  margin-right: 2.5rem;
+  font-size: 1rem; }
 
 .footer {
   grid-area: footer;
@@ -129,8 +139,7 @@
   display: flex;
   justify-content: center;
   width: auto;
-  padding: 2%;
-  margin: 2%; }
+  padding: 1.2rem; }
 
 .imagenMuseo {
   display: flex;
@@ -138,7 +147,8 @@
   width: auto; }
 
 #imgMuseo {
-  width: auto; }
+  width: auto;
+  padding: 1.2rem; }
 
 /*MONUMENTAL*/
 .main__tablaPrecios {

@@ -69,33 +69,40 @@
             margin: 20px 10px;
             flex-direction: row-reverse;
             font-size: 1.3rem;
-        
-            p {
-                width: auto;
-                padding: 2rem;
-                margin: 35px;
-                font-size: 1rem;
-            }
-            .articuloNoticia__img1{
-                display: flex;
-                padding: 1rem;
-                width: auto;
-                
-            }
-            
-            .articuloNoticia__img2{
-                display: flex;
-                padding: 1rem;
-                width: auto;
-            
-            }
-        }
-    }
+          }
+        } 
+      }
+.articuloNoticia__img3{
+  display: flex;
+  padding: 1.5rem;
+  margin:auto;
+  width: auto;
+}
+
+.contenedor__img2{
+  display: flex;
+  justify-content: center;
+  
+  .articuloNoticia__img2{
+    display: flex;
+    padding: 1rem;
+    width: auto;
+  }
+}      
+.contenedor__img1{
+  display: flex;
+  justify-content: center;
+  .articuloNoticia__img1{
+    display: flex;
+    padding: 1rem;
+    width: auto;
+  }
 
 }
-.articuloNoticia__img3{
-    display: flex;
-    padding: 1.5rem;
-    margin:auto;
-    width: auto;
+.articuloNoticia__Parrafo{ 
+  width: auto;
+  padding: 1.5rem;
+  margin-left: 2.5rem;
+  margin-right: 2.5rem;
+  font-size: 1rem;
 }
