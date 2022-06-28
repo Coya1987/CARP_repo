@@ -107,4 +107,16 @@
         width: auto;
         
     }
+    .contenedor__cards{
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        align-items: center;
+    
+    }
+
+    .card{
+        width: auto;
+
+    }
 }

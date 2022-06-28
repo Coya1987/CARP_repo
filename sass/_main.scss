@@ -54,7 +54,11 @@
         margin: 10px 10px;
         font-size: 3rem;
     }
-    
+    .contenedor__cards{
+      display: flex;
+      justify-content: space-between;
+
+    }
     .articuloNoticia__titulo{
         display: flex;
         justify-content: center;

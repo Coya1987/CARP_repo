@@ -63,6 +63,9 @@
     padding: 20px 20px;
     margin: 10px 10px;
     font-size: 3rem; }
+  .main .contenedor__cards {
+    display: flex;
+    justify-content: space-between; }
   .main .articuloNoticia__titulo {
     display: flex;
     justify-content: center;
@@ -264,4 +267,11 @@
   .fieldset {
     display: flex;
     justify-content: center;
+    width: auto; }
+  .contenedor__cards {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center; }
+  .card {
     width: auto; } }
